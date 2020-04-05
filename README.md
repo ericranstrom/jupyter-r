@@ -12,7 +12,7 @@ Simple Jupyter Notebook with R running in docker
 1. Clone the repo
 2. cd into `jupyter-r`
 3. run `./gradlew build` to build the docker image.  this will take a few min
-4. run `gradlew run` to start a container from the image and open a web browser to the jupyter application.  If the page comes up saying it can't connect, wait a minute to see if it opens.
+4. run `./gradlew run` to start a container from the image and open a web browser to the jupyter application.  If the page comes up saying it can't connect, wait a minute to see if it opens.
 
 If you close your browser for any reason, run ```./gradlew open``` to open the app in browser again.
 
