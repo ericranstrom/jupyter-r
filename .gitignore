@@ -1,0 +1,20 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+.gradletasknamecache
+!gradle-wrapper.jar
+
+# Ignore Gradle build output directory
+build
+
+# jupyter files
+*.cache
+*.local
+*.ipython
+*.jupyter
+*.ipynb_checkpoints
+
+# idea
+.idea
+/*.iml
+/*.ipr
+/*.iws
